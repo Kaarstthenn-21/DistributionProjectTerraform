@@ -1,8 +1,8 @@
 # DistributionProjectTerraform
-# Se muestra a continucion las maneras de poder trabajar proyectos, desde lo mas básico hasta proyectos con alta demanda de infraestructura, recursos, proveedores y mas
-# Al igual que proyectos de Front-end o Backend, se busca poder abstraer lo mas que se pueda, ya que a medida que va creciendo un proyecto y el equipo de trabajo
-# Se Busca que este sea totalmente mantenible en el tiempo:
-# A continucion, estructura de directorios para proyectos Terraform.
+Se muestra a continucion las maneras de poder trabajar proyectos, desde lo mas básico hasta proyectos con alta demanda de infraestructura, recursos, proveedores y mas
+Al igual que proyectos de Front-end o Backend, se busca poder abstraer lo mas que se pueda, ya que a medida que va creciendo un proyecto y el equipo de trabajo
+Se Busca que este sea totalmente mantenible en el tiempo:
+A continucion, estructura de directorios para proyectos Terraform.
 Separando tfstates por servicio de AWS
 ```
 └── terraform
