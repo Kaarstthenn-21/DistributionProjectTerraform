@@ -3,7 +3,8 @@ Se muestra a continucion las maneras de poder trabajar proyectos, desde lo mas b
 Al igual que proyectos de Front-end o Backend, se busca poder abstraer lo mas que se pueda, ya que a medida que va creciendo un proyecto y el equipo de trabajo
 Se Busca que este sea totalmente mantenible en el tiempo:
 A continucion, estructura de directorios para proyectos Terraform.
-Separando tfstates por servicio de AWS
+
+# Separando tfstates por servicio de AWS
 ```
 └── terraform
     ├── s3
@@ -20,7 +21,7 @@ Separando tfstates por servicio de AWS
 		│   └── provider.tf
 ```
 
-Separando tfstates por aplicación y servicio
+# Separando tfstates por aplicación y servicio
 ```
 └── terraform
     ├── catalog
@@ -44,7 +45,7 @@ Separando tfstates por aplicación y servicio
 ```
 
 
-Separando tfstates por entorno, aplicación y servicio
+# Separando tfstates por entorno, aplicación y servicio
 ```
 └── terraform
     ├── dev
@@ -71,7 +72,7 @@ Separando tfstates por entorno, aplicación y servicio
 		...
 ```
 
-Separando tfstate por entorno y proposito
+# Separando tfstate por entorno y proposito
 
 ```
 └── terraform
